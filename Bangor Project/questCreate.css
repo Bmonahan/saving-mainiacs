@@ -1,0 +1,72 @@
+#questCreate
+{
+	display:block;
+	position: relative;
+	width: 80%;
+	height: 500px;
+	margin-left: 10%;
+	background-color: #126180;
+	margin-top: 3%;
+}
+input[type=date] 
+{
+    width: 200px;
+    background-color: #fff;
+    color: black;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #9F9F9F;
+}
+
+input[type=number] 
+{
+	width: 200px;
+    background-color: #fff;
+    color: black;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #9F9F9F;
+}
+
+textarea
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #9F9F9F;
+	cursor: pointer;
+	background-color: #fff;
+}
+input[type=text] 
+{
+	width: 400px;
+    background-color: #fff;
+    color: black;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #9F9F9F;
+}
+label
+{
+	color: #fff;
+	display: inline;
+}
+input[type=Submit]
+{
+	width: 200px;
+	background-color: #fff;
+} 

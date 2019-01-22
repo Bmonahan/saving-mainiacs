@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bangor Savings</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="bangorProject.css">
+<link rel="stylesheet" href="questCreate.css">
+</head>
+<div id="bannerNew">
+	<div id="bannerLogo" align="center">
+		<img src="logo.png" alt="Bangor Savings Logo" >
+	</div>
+	<div id="bannerRightCharity">
+		<h3>Coins: 400</h3>
+	</div>
+</div>
+	
+<div id="wrapper">
+	<body>
+		<main>
+			<div id="main">
+				<div id="left">
+					<div id="logout">
+						<div style="display: block; width:100%; height:5px;">
+						</div>
+						<h1>Charity</h1>
+						<form action="index.html" align="center">
+							<button type="sumbit" value="login page">Logout</button>
+						</form>
+					</div>
+					<!--<div id = "checkin" align="center">
+						<div id = "checkinHeader">
+							<h1>Log Hours</h1>
+						</div>
+						<form >
+							Username:<br><input type="text" name="username" placeholder="Username">
+							<br>
+							Hours:<br><input type="text" name="hours" placeholder="Hours">
+							<br>
+							<input type="Submit" value="Enter" >
+						</form>
+					</div>	-->
+				</div>
+				
+				<div id="right">
+					<!--<p>
+							Name + Logout /n
+							Coin pool month/n
+							Create Quest
+								- Start/End Date
+								- Payout
+								- Coins to be earned per completion
+								- Description
+							edit
+					</p>-->
+					<div id="questCreate" align="center">
+						<form >
+							<label for="questName">Quest Name:</label>
+							<input type="text" name="questName" placeholder="Quest Name...">
+							<br>
+							<label for="quant"> Quantity: </label>
+							<input type="number" name="quant" placeholder="" style="width: 50px;">
+							<br>
+							<label for="startDate">Start Date:</label>
+							<input type ="date" name = "startDate" placeholder="">
+							<br>
+							<label for="endDate">End Date:</label>
+							<input type ="date" name = "endDate" placeholder="">
+							<br>
+							<label for="payout">Payout:&nbsp;&nbsp;&nbsp;&nbsp; </label>
+							<input type ="number" name = "payout" placeholder="Coins...">
+							<br><br>
+							<textarea rows="4" cols="50" style="text-align: left;">
+Enter Description...
+							</textarea>
+							<br>
+							<input type="Submit" value="Create" >
+						</form>	
+						<script type="text/javascript">
+							
+						</script>
+					</div>
+					<div id="charityList">
+						<h1>Charity Leaderboard</h1>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</div>
+<footer>
+	<p style="height: 26px; padding-bottom: 0px; margin-bottom: 10px;">
+        <strong>Bangor Support: 1.877.226.4671</strong> <span class="eh"><a href="mailto:bangorsupport@bangor.com" onclick="PopEmail(this.href); return false;">bangorsupport@bangor.com</a></span>
+        <a href="https://www.facebook.com/bangorsavingsbank" onclick="Departure(this.href, 'general'); return false;" style="height: 25px; position: relative; top: 4px;"><img src="fb-icons-foot.png" width="25px" height="25px"></a>
+        <a href="https://twitter.com/bangorsavings" onclick="Departure(this.href, 'general'); return false;" style="height: 25px; position: relative; top: 4px; left: 12px;"><img src="tw-icons-foot.png" width="31px" height="25px"></a>
+        <a href="https://www.youtube.com/channel/UC6hwOwRZiNJGfBnmLgMxSAA" onclick="Departure(this.href, 'general'); return false;" style="height: 25px; position: relative; top: 4px; left: 12px;"><img src="yt-logo-foot.png" height="25px" width="60px"></a>
+        <a href="https://www.linkedin.com/company/bangor-savings-bank" onclick="Departure(this.href, 'general'); return false;" style="height: 25px; position: relative; top: 4px; left: 12px;"><img src="li-icons-foot.png" height="25px" width="28px"></a>        
+      </p>
+	<div id="footer">
+		<ul>
+			<li>
+				<a href="/About-Us/Career-Opportunities.aspx" target="_self">Careers</a>
+			</li>
+			<li>
+				<a href="/About-Us/Contact-Us.aspx" target="_self">Contact Us</a>
+			</li>
+		</ul>
+		<p><a href="/Utility/Copyright.aspx">Copyright © 2017 Bangor Savings Bank</a> <span>Member FDIC</span> <span>Equal Housing Lender</span></p>
+	</div>
+</footer>

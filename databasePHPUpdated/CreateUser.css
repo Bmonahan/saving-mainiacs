@@ -1,0 +1,175 @@
+@font-face {
+   font-family: plymouth;
+   src: url(Plymouth-Serial-Regular.ttf);
+}
+*
+{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+        font-family: plymouth;
+        
+}
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+#bod
+{
+	display: block;
+	position: relative;
+	background-color: #939598;
+	color: black;
+	width: 100%;
+	height: 600px;
+}
+#contain
+{
+	min-width: 1024px;
+  	max-width: 1250px;
+}
+#create
+{
+	display: block;
+	position: relative;
+	background-color: #fff;
+	color: black;
+	height: 560px;
+	width: 100%;
+	padding: 10px;
+	top: 10px;
+	border-radius: 7px;
+	max-width: 1210px;
+	left:10px;
+}
+#banner
+{
+	display: block;
+	position: relative;
+	height: 85px;
+	width: 100%;
+	min-width: 1024px;
+  	max-width: 1250px;
+  	background-color: #064F94;
+}
+#banner h1
+{
+	font-size: 4em;
+	margin-left: 15px;
+}
+main
+{
+	  	background-color: #939598;
+}
+form
+{
+	color: black;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 3%;
+}
+form h2 
+{
+	font-size: 1.5em;
+/* 
+	 font-family: Arial, "Helvetica Neue", Helvetica, "Nimbus Sans L", sans-serif;
+ */
+}
+
+input[type=text], select {
+    width: 40%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #064F94;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+input[type=email], select {
+    width: 40%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #064F94;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+input[type=tel], select {
+    width: 40%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #064F94;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+input[type=password], select {
+    width: 40%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #064F94;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+input[type=submit] {
+    width: 40%;
+    background-color: #064F94;
+    color: #fff;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #064F94;
+}
+
+input[type=submit]:hover {
+    background-color: #C1C1C1;
+}
+footer
+{
+	background-color: #e3e3e3;
+	height: 121px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color:#d5d5d5;
+	display: block;
+	position: relative;
+	width: 100%;
+	text-align: center;
+/* 
+	font-family: Arial, "Helvetica Neue", Helvetica, "Nimbus Sans L", sans-serif;
+ */
+	font-size: 100%;
+	min-width: 1024px;
+  	max-width: 1250px;
+}
+footer a
+{
+	text-decoration: none;
+	color:#064F94;
+}
+#footer li
+{
+	text-decoration: none;
+	display: inline;
+	list-style: none;
+	padding:0 5px;
+}

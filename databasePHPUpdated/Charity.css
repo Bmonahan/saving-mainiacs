@@ -1,0 +1,590 @@
+@font-face {
+   font-family: plymouth;
+   src: url(Plymouth-Serial-Regular.ttf);
+}
+*
+{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+        font-family: plymouth;
+        
+}
+main
+{
+	  	background-color: #939598;
+}
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+#banner
+{
+	display: block;
+	position: relative;
+	height: 85px;
+	width: 100%;
+	min-width: 1250px;
+  	max-width: 1250px;
+  	background-color: #064F94;
+}
+#banner h1
+{
+	font-size: 4em;
+	margin-left: 15px;
+}
+.bannerRight
+{
+	float: right;
+	right: 2%;
+	display: block;
+	position: relative;
+	/* background-color: #fff; */
+	height: 75px;
+	width: 150px;
+	margin-top: -70px;
+}
+.bannerRight h3
+{
+	color: #fff;
+	font-size: auto;
+}
+.bannerRight input
+{
+	font-size: 1.3em;
+	color: #939598;
+	cursor: pointer;
+}
+#bod
+{
+	display: block;
+	position: relative;
+	background-color: #939598;
+	color: black;
+	width: 100%;
+	height: 800px;
+}
+#contain
+{
+	min-width: 1250px;
+  	max-width: 1250px;
+}
+#donationLeftUser
+{
+	float: left;
+	display: block;
+	position: relative;
+	background-color: #fff;
+	color: black;
+	height: 760px;
+	width: 30%;
+	padding: 10px;
+	top: 10px;
+	border-radius: 7px;
+	max-width: 1210px;
+	left:10px;
+}
+#chart
+{
+	height: 60%;
+	display: block;
+	position: relative;
+	width: 100%;
+	/* background-color: black; */
+}
+#profileUser
+{
+	float: left;
+	display: block;
+	position: relative;
+	color: black;
+	height: 760px;
+	width: 31%;
+	top: 10px;
+	border-radius: 7px;
+	padding: 10px;
+	left:2%;
+}
+#pic
+{
+	height: 50%;
+	/* background-color: #fff; */
+}
+#pic img
+{
+	height: 90%;
+	width: 90%;
+	border: 10px solid #064F94;
+}
+.img-circle {
+    border-radius: 50%;
+}
+#coinsCurrent
+{
+	height: 50%;
+	/* background-color: #fff; */
+}
+.coins
+{
+	height: 50%;
+	display: block;
+	position: relative;
+}
+.coins h1
+{
+	color: #064F94;
+	font-size: 3em;
+	text-align: center;
+}
+.coins h2
+{
+	color: black;
+	font-size: 2.5em;
+	
+}
+.steps
+{
+	height: 50%;
+	display: block;
+	position: relative;
+}
+.steps h1
+{
+	color: #064F94;
+	font-size: 3em;
+	text-align: center;
+}
+.steps h2
+{
+	color: black;
+	font-size: 2.5em;
+	
+}
+#coinTotalUser
+{
+	float: right;
+	display: block;
+	position: relative;
+	background-color: #fff;
+	color: black;
+	height: 760px;
+	width: 30%;
+	padding: 10px;
+	top: 10px;
+	border-radius: 7px;
+	max-width: 1210px;
+	right:10px;
+}
+
+#totalCoinsEarned
+{
+	display: block;
+	position: relative;
+	background-color: #fff;
+	height: 33%;
+}
+#totalCoinsEarned h1
+{
+	color: #064F94;
+	font-size: 3em;
+	text-align: center;
+}
+#totalCoinsEarned h2
+{
+	color: black;
+	font-size: 2.5em;
+	
+}
+#totalSteps
+{
+	display: block;
+	position: relative;
+	background-color: #fff;
+	height: 33%;
+}
+#totalSteps h1
+{
+	color: #064F94;
+	font-size: 3em;
+	text-align: center;
+}
+#totalSteps h2
+{
+	color: black;
+	font-size: 2.5em;
+	
+}
+#totalDonations
+{
+	display: block;
+	position: relative;
+	background-color: #fff;
+	height: 33%;
+}
+#totalDonations h1
+{
+	color: #064F94;
+	font-size: 3em;
+	text-align: center;
+}
+#totalDonations h2
+{
+	color: black;
+	font-size: 2.5em;
+	
+}
+input[type=submit] {
+    width: 50%;
+    background-color: #DFDFDF;
+    color: black;
+    /* padding: 12px 20px; */
+    margin: 4px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #9F9F9F;
+}
+footer
+{
+	background-color: #e3e3e3;
+	height: 121px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color:#d5d5d5;
+	display: block;
+	position: relative;
+	width: 100%;
+	text-align: center;
+/* 
+	font-family: Arial, "Helvetica Neue", Helvetica, "Nimbus Sans L", sans-serif;
+ */
+	font-size: 100%;
+	min-width: 1250px;
+  	max-width: 1250px;
+}
+footer a
+{
+	text-decoration: none;
+	color:#064F94;
+}
+#footer li
+{
+	text-decoration: none;
+	display: inline;
+	list-style: none;
+	padding:0 5px;
+}
+
+
+
+
+
+
+#charityQuests
+{
+	float: right;
+	display: block;
+	position: relative;
+	background-color: #fff;
+	color: black;
+	height: 460px;
+	width: 65%;
+	padding: 10px;
+	top: 10px;
+	border-radius: 7px;
+	max-width: 1210px;
+	right:10px;
+}
+#charityDonations
+{
+	float: right;
+	display: block;
+	position: relative;
+	background-color: #fff;
+	color: black;
+	height: 265px;
+	width: 65%;
+	padding: 10px;
+	top: 25px;
+	border-radius: 7px;
+	max-width: 1210px;
+	right:10px;
+}
+#charityLeft
+{
+	float: left;
+	display: block;
+	position: relative;
+	color: black;
+	background-color: none;
+	height: 760px;
+	width: 28%;
+	top: 10px;
+	border-radius: 7px;
+	left:1%;
+	padding: 10px;
+}
+#image
+{
+	display: block;
+	position: relative;
+	height: 460px;
+	background-color: none;
+}
+#map
+{
+	display: block;
+	position: relative;
+	height: 265px;
+	background-color: none;
+	border-radius: 10px;
+	padding: 10px;
+	top: 25px;
+}
+#allotedCoins
+{
+	position: relative;
+	display:block;
+	height: 265px;
+	width: 100%;
+	top: 10%;
+}
+#allotedCoins h1
+{
+	color: #064F94;
+	font-size: 3.5em;
+	text-align: center;
+}
+#allotedCoins h2
+{
+	color: black;
+	font-size: 2.5em;
+	
+}
+table 
+{
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	border-radius: 2px;
+	border-color: #fff;
+	width: 100%;
+	overflow-y:scroll;
+	height: 90%;
+	display: block;
+}
+
+td, th 
+{
+	border: 2px solid black;
+	text-align: center;
+	padding: 2px;
+	font-size: auto;
+}
+td
+{
+	width: 150px;
+}
+
+tr:nth-child(even) {
+	background-color: #fff;
+}
+tr:nth-child(odd) {
+	background-color: #126180;
+	color: white;
+}
+#charQTable
+{
+	width: 700px;
+	height: 40%;
+	margin-left: 12%;
+	display: block;
+	position: relative;
+	/*margin-top: 30px;*/
+}
+#charQTable h1
+{
+	font-size: 1.6em;
+}
+#charQTable2
+{
+	width: 700px;
+	height: 40%;
+	margin-left: 12%;
+	display: block;
+	position: relative;
+	top: 10%;
+	/*margin-top: 30px;*/
+}
+#charQTable2 h1
+{
+	font-size: 1.6em;
+}
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+#left
+{
+	width: 35%;
+	float: left;
+	height: 50%;
+	display: block;
+	position: relative;
+	margin-left: 15px;
+}
+#left h1
+{
+	color: #064F94;
+	font-size: 3em;
+	text-align: center;
+}
+#left h2
+{
+	color: black;
+	font-size: 2.5em;
+}
+#mid
+{
+	width: 25%;
+	float: left;
+	height: 50%;
+	display: block;
+	position: relative;
+}
+#mid h1
+{
+	color: #064F94;
+	font-size: 3em;
+	text-align: center;
+}
+#mid h2
+{
+	color: black;
+	font-size: 2.5em;
+}
+#right
+{
+	width: 33%;
+	float: right;
+	height: 50%;
+	display: block;
+	position: relative;
+}
+#right h1
+{
+	color: #064F94;
+	font-size: 3em;
+	text-align: center;
+}
+#right h2
+{
+	color: black;
+	font-size: 2.5em;
+}
+#createForm
+{
+	display: block;
+	position: relative;
+	background-color: #fff;
+	color: black;
+	height: 760px;
+	width: 100%;
+	padding: 10px;
+	top: 10px;
+	border-radius: 7px;
+	max-width: 1210px;
+	left:10px;
+}
+#selector
+{
+	height: 300px;
+	width: 100%;
+	display: block;
+	position: relative;
+	background-color: #939598;
+}
+#selectorSpace
+{
+	height: 98%;
+	width: 1230px;
+	display: block;
+	position: relative;
+	background-color: #fff;
+	margin-left: 10px;
+	border-radius: 7px;
+}
+input[type=text]{
+    width: 50%;
+    padding: 3px 6px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #064F94;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+input[type=password]{
+    width: 50%;
+    padding: 3px 6px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #064F94;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #064F94;
+    color: #fff;
+    padding: 2px 4px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #064F94;
+}
+input[type=number]{
+    width: 50%;
+    padding: 3px 6px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #064F94;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+#createQ
+{
+	width: 33%;
+	height: 100%;
+	display: block;
+	position: relative;
+	float: left;
+}
+#createQ h1
+{
+	font-size: 2em;
+}
