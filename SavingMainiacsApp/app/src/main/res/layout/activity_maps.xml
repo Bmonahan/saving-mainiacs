@@ -1,0 +1,174 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#064F94"
+    android:orientation="vertical">
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".30"
+        tools:context="com.mainiacs.saving.savingmainiacsapp.MapsActivity" />
+
+    <ScrollView
+        android:id="@+id/charityView"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_weight=".70">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <com.mainiacs.saving.savingmainiacsapp.FontTextView
+                android:id="@+id/charName"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:gravity="left"
+                android:text="Charity Name"
+                android:textColor="@color/bsbBlue"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <com.mainiacs.saving.savingmainiacsapp.FontTextView
+                android:id="@+id/charAddress1"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="Address1"
+                android:textColor="@color/bsbGrey"
+                android:textSize="25sp" />
+
+            <com.mainiacs.saving.savingmainiacsapp.FontTextView
+                android:id="@+id/charAddress2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="Address2"
+                android:textColor="@color/bsbGrey"
+                android:textSize="25sp" />
+
+            <com.mainiacs.saving.savingmainiacsapp.FontTextView
+                android:id="@+id/charPhone"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="Phone Number"
+                android:textColor="@color/bsbGrey"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <ScrollView
+        android:id="@+id/questView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_weight=".70">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <com.mainiacs.saving.savingmainiacsapp.FontTextView
+                android:id="@+id/questName"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:gravity="left"
+                android:text="Charity Name"
+                android:textColor="@color/bsbBlue"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <com.mainiacs.saving.savingmainiacsapp.FontTextView
+                android:id="@+id/questDesc"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="32dp"
+                android:paddingTop="16dp"
+                android:text="Phone Number"
+                android:textColor="@color/bsbGrey"
+                android:textSize="16sp" />
+
+            <com.mainiacs.saving.savingmainiacsapp.FontTextView
+                android:id="@+id/questLocation"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="32dp"
+                android:paddingTop="16dp"
+                android:text="Phone Number"
+                android:textColor="@color/bsbGrey"
+                android:textSize="16sp" />
+
+            <com.mainiacs.saving.savingmainiacsapp.FontTextView
+                android:id="@+id/questPayment"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="32dp"
+                android:paddingTop="16dp"
+                android:text="Phone Number"
+                android:textColor="@color/bsbGrey"
+                android:textSize="16sp" />
+
+            <com.mainiacs.saving.savingmainiacsapp.FontTextView
+                android:id="@+id/questQuantity"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingBottom="16dp"
+                android:paddingLeft="32dp"
+                android:paddingTop="16dp"
+                android:text="Phone Number"
+                android:textColor="@color/bsbGrey"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/acceptQuestBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:text="Accept Quest"
+                android:textColor="#064F94"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

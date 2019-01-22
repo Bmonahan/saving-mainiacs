@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/userProfileMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#064F94"
+        >
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#064F94"
+            android:layout_margin="10dip"
+            >
+
+            <ImageView
+                android:id="@+id/userpic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/userameText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sm_text_view"
+                android:textColor="#064F94"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/userEmailText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/userEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sm_text_view"
+                android:textColor="#064F94"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/userDayStepsText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Steps Today"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/userDaySteps"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sm_text_view"
+                android:textColor="#064F94"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/userMonthStepsText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Steps this Month"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/userMonthSteps"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sm_text_view"
+                android:textColor="#064F94"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/userTotalStepsText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Steps"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/userTotalSteps"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sm_text_view"
+                android:textColor="#064F94"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/userCoinsText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Coins"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/userCoins"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sm_text_view"
+                android:textColor="#064F94"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/userTotalCoinsText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Coins"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/userTotalCoins"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sm_text_view"
+                android:textColor="#064F94"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/userLatLongText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/userLatLong"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sm_text_view"
+                android:textColor="#064F94"
+                android:textSize="30sp"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/userProfileQuests"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#064F94">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/userProfileQuestLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#064F94"
+            android:layout_margin="10dip">
+
+            <TextView
+                android:id="@+id/userQuestText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Quest"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mainiacs.saving.savingmainiacsapp.UserProfileActivity">
+    <item
+        android:id="@+id/user_profile_main"
+        android:orderInCategory="100"
+        android:title="@string/user_profile_main" />
+    <item
+        android:id="@+id/user_profile_quest"
+        android:orderInCategory="200"
+        android:title="@string/user_profile_quest" />
+</menu>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:background="@color/bsbWhite"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="@dimen/chart_length"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/userDaySteps"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textColor="@color/bsbBlue"
+            android:textSize="@dimen/large_text_size" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="/10000"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/chart_length"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/userLevel"
+        android:layout_width="@dimen/chart_length"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textSize="@dimen/small_text_size"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/steps_chart"
+            android:layout_width="@dimen/chart_length"
+            android:layout_height="@dimen/chart_length"
+            android:layout_centerInParent="true" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userpic"
+            android:layout_width="@dimen/image_length"
+            android:layout_height="@dimen/image_length"
+            android:layout_centerInParent="true"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/userCoinsText"
+        android:layout_width="@dimen/chart_length"
+        android:layout_height="wrap_content"
+        android:text="@string/coins_label"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size" />
+
+    <View
+        android:layout_width="@dimen/chart_length"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/userCoins"
+        android:layout_width="@dimen/chart_length"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textColor="@color/bsbBlue"
+        android:textSize="@dimen/large_text_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/text_margin"
+        android:text="@string/user_profile_quest"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/quest_preview_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_margin"
+        android:layout_marginLeft="@dimen/text_margin"
+        android:layout_marginRight="@dimen/text_margin"
+        android:background="@drawable/sm_text_view">
+
+    </ListView>
+
+</LinearLayout>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tracker"
+            android:icon="@drawable/footstep"
+            android:title="@string/nav_tracker" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/placeholder"
+            android:title="@string/nav_maps" />
+        <item
+            android:id="@+id/nav_quests"
+            android:icon="@drawable/target"
+            android:title="@string/nav_quests" />
+        <item
+            android:id="@+id/nav_leaderboard"
+            android:icon="@drawable/trophy"
+            android:title="@string/nav_leaderboard" />
+    </group>
+
+    <item android:title="@string/nav_user_submenu">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_user_settings"
+                    android:icon="@drawable/avatar"
+                    android:title="@string/nav_user_profile" />
+
+                <item
+                    android:id="@+id/nav_sign_off"
+                    android:icon="@drawable/logout"
+                    android:title="@string/nav_sign_off" />
+            </group>
+        </menu>
+    </item>
+</menu>

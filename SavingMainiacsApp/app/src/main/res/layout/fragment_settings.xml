@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/text_margin"
+    android:orientation="vertical"
+    tools:context="com.mainiacs.saving.savingmainiacsapp.SettingsFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/label_donation_rates"
+        android:textSize="@dimen/large_text_size" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/donation_rate_chart"
+        android:layout_width="@dimen/large_chart_length"
+        android:layout_height="@dimen/large_chart_length"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/text_margin" />
+
+
+    <SeekBar
+        android:id="@+id/donation_rate_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/text_margin"
+        android:layout_marginRight="@dimen/text_margin"
+        android:layout_marginTop="@dimen/text_margin"
+        android:max="100" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin">
+
+        <Button
+            android:id="@+id/donation_add_charity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/label_donation_add_charity"
+            android:textColor="@color/bsbBlue"
+            android:textSize="@dimen/text_size" />
+
+        <ListView
+            android:id="@+id/donation_charity_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+
+</LinearLayout>

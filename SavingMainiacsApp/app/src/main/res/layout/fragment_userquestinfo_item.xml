@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/text_margin"
+    android:paddingLeft="@dimen/text_margin"
+    android:paddingRight="@dimen/text_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/user_quest_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="start"
+            android:textSize="@dimen/small_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_quest_reward"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/user_quest_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sm_text_view"
+        android:orientation="vertical"
+        android:padding="@dimen/text_margin"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/quest_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_margin"
+            android:textSize="@dimen/small_text_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="15">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/label_charity"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/quest_charity_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_weight="13"
+                android:gravity="start"
+                android:textSize="@dimen/small_text_size" />
+
+            <ImageButton
+                android:id="@+id/user_quest_complete"
+                android:layout_width="@dimen/button_length"
+                android:layout_height="@dimen/button_length"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/button_margin"
+                android:background="@drawable/quest_complete"
+                android:contentDescription="@string/action_complete" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="15">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/label_date"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/quest_accepted_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_weight="13"
+                android:gravity="start"
+                android:textSize="@dimen/small_text_size" />
+
+            <ImageButton
+                android:id="@+id/user_quest_delete"
+                android:layout_width="@dimen/button_length"
+                android:layout_height="@dimen/button_length"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/button_margin"
+                android:background="@drawable/quest_leave"
+                android:contentDescription="@string/action_leave" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
